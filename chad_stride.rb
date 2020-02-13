@@ -6,7 +6,8 @@ class ChadStride < Formula
 
   def install
     system "make"
-    system "make", "install"
+    bin.install "chad_stride"
+    system "ln", "-s", "#{usr}/chad_stride" "#{bin}/cs"
   end
 
   test do
