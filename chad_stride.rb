@@ -2,7 +2,7 @@ class ChadStride < Formula
   desc "A small curses program to stride across your terminal"
   homepage ""
   url "https://github.com/sambattalio/chad_stride/archive/0.69420.tar.gz"
-  sha256 "3ed0b5e5e860d6d445884272b5b9668156efd2e699a82abcf478833b444bfd9c"
+  sha256 "7b8995f2cf75a4211eae61dcee2e2691b8a68cc2ed573e35c798672d33a30432"
 
   def install
     system "make"
